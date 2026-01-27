@@ -1,0 +1,309 @@
+@import "tailwindcss";
+
+@theme {
+    /* ============================================
+     PREMIUM COLOR PALETTE
+     ============================================ */
+
+    /* Primary Brand - Deep Royal Blue */
+    --color-primary-950: #020617;
+    --color-primary-900: #0F172A;
+    --color-primary-800: #1E293B;
+    --color-primary-700: #334155;
+    --color-primary-600: #475569;
+
+    /* Accent - Luxurious Gold */
+    --color-accent-600: #D97706;
+    --color-accent-500: #F59E0B;
+    --color-accent-400: #FBBF24;
+    --color-accent-300: #FCD34D;
+
+    /* Neutrals */
+    --color-white: #FFFFFF;
+    --color-gray-50: #F8FAFC;
+    --color-gray-100: #F1F5F9;
+    --color-gray-200: #E2E8F0;
+    --color-gray-300: #CBD5E1;
+    --color-gray-400: #94A3B8;
+    --color-gray-500: #64748B;
+    --color-gray-600: #475569;
+    --color-gray-900: #0F172A;
+
+    /* Functional */
+    --color-success: #10B981;
+    --color-error: #EF4444;
+    --color-info: #3B82F6;
+
+    /* Typography */
+    --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+    --font-serif: var(--font-poppins), ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
+
+    /* Spacing */
+    --spacing-container: 1280px;
+
+    /* Animation */
+    --animate-float: float 6s ease-in-out infinite;
+    --animate-fade-in: fadeIn 0.5s ease-out forwards;
+    --animate-fade-in-up: fadeInUp 0.5s ease-out forwards;
+
+    @keyframes float {
+        0% {
+            transform: translateY(0px);
+        }
+
+        50% {
+            transform: translateY(-20px);
+        }
+
+        100% {
+            transform: translateY(0px);
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeInUp {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+}
+
+/* Base Styles */
+:root {
+    --background: var(--color-white);
+    --foreground: var(--color-primary-900);
+}
+
+body {
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Utilities */
+@utility container {
+    margin-inline: auto;
+    padding-inline: 1.5rem;
+    max-width: var(--spacing-container);
+}
+
+/* Z-Index Utilities */
+.z-fixed {
+    z-index: 100;
+}
+
+/* Gradient Text */
+.gradient-text {
+    background: linear-gradient(135deg, var(--color-accent-400), var(--color-accent-600));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+/* Section Utility */
+.section {
+    padding: 5rem 0;
+}
+
+.section-gray {
+    background-color: var(--color-gray-50);
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 3rem 0;
+    }
+}
+
+/* Button Styles */
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-weight: 600;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border: none;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* Button Sizes */
+.btn-sm {
+    padding: 0.5rem 1rem;
+    font-size: 0.875rem;
+}
+
+.btn-md {
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+}
+
+.btn-lg {
+    padding: 1rem 2rem;
+    font-size: 1.125rem;
+}
+
+/* Button Variants */
+.btn-primary {
+    background-color: var(--color-accent-600);
+    color: var(--color-white);
+}
+
+.btn-primary:hover:not(:disabled) {
+    background-color: var(--color-accent-500);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(217, 119, 6, 0.3);
+}
+
+.btn-secondary {
+    background-color: var(--color-primary-800);
+    color: var(--color-white);
+    border: 1px solid var(--color-primary-700);
+}
+
+.btn-secondary:hover:not(:disabled) {
+    background-color: var(--color-primary-700);
+    border-color: var(--color-primary-600);
+    transform: translateY(-2px);
+}
+
+.btn-ghost {
+    background-color: transparent;
+    color: var(--color-primary-900);
+    border: 1px solid var(--color-gray-300);
+}
+
+.btn-ghost:hover:not(:disabled) {
+    background-color: var(--color-gray-50);
+    border-color: var(--color-gray-400);
+}
+
+/* Spinner/Loading Animation */
+.spinner {
+    display: inline-block;
+    border: 2px solid currentColor;
+    border-right-color: transparent;
+    border-radius: 50%;
+    animation: spin 0.75s linear infinite;
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Card Styles */
+.card {
+    background-color: var(--color-white);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.glass-card {
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.card-image {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.6));
+    z-index: 1;
+}
+
+/* Input Styles */
+.input,
+.textarea,
+.select {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: 1px solid var(--color-gray-300);
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    transition: all 0.2s ease;
+    background-color: var(--color-white);
+    color: var(--color-primary-900);
+}
+
+.input:focus,
+.textarea:focus,
+.select:focus {
+    outline: none;
+    border-color: var(--color-accent-500);
+    box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.1);
+}
+
+.input-error,
+.textarea.input-error,
+.select.input-error {
+    border-color: var(--color-error);
+}
+
+.input-error:focus,
+.textarea.input-error:focus,
+.select.input-error:focus {
+    box-shadow: 0 0 0 3px rgba(239, 68, 68, 0.1);
+}
+
+.textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+.label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    color: var(--color-primary-900);
+    font-size: 0.875rem;
+}
+
+.error-message {
+    color: var(--color-error);
+    font-size: 0.875rem;
+    margin-top: 0.5rem;
+}
+
+/* Additional Color Definitions for Tailwind */
+@theme {
+    --color-primary: var(--color-primary-900);
+    --color-secondary: var(--color-primary-800);
+    --color-accent: var(--color-accent-500);
+}

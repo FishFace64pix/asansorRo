@@ -1,0 +1,509 @@
+{
+    "common": {
+        "companyName": "AsansorTech România",
+        "getQuote": "Solicită Ofertă",
+        "learnMore": "Află Mai Mult",
+        "readMore": "Citește Mai Mult",
+        "viewAll": "Vezi Toate",
+        "viewDetails": "Vezi Detalii",
+        "contactUs": "Contactează-ne",
+        "sendMessage": "Trimite Mesaj",
+        "loading": "Se încarcă...",
+        "email": "Email",
+        "phone": "Telefon",
+        "address": "Adresă"
+    },
+    "nav": {
+        "home": "Acasă",
+        "corporate": "Corporate",
+        "about": "Despre Noi",
+        "subsidiaries": "Filiale",
+        "services": "Servicii",
+        "installation": "Instalare",
+        "maintenance": "Mentenanță",
+        "modernization": "Modernizare",
+        "products": "Produse",
+        "projects": "Proiecte",
+        "references": "Referințe",
+        "blog": "Blog",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Partenerul Dumneavoastră de Încredere pentru Soluții de Ascensoare",
+        "subtitle": "Cu peste 15 ani de experiență în România, oferim instalare, întreținere și modernizare de ascensoare la cele mai înalte standarde de siguranță și calitate.",
+        "cta1": "Solicită Ofertă",
+        "cta2": "Serviciile Noastre"
+    },
+    "features": {
+        "projects": {
+            "number": "500+",
+            "label": "Proiecte Realizate"
+        },
+        "support": {
+            "number": "24/7",
+            "label": "Suport Tehnic"
+        },
+        "experience": {
+            "number": "15+",
+            "label": "Ani de Experiență"
+        },
+        "safety": {
+            "number": "100%",
+            "label": "Conformitate cu Siguranța"
+        }
+    },
+    "services": {
+        "title": "Serviciile Noastre",
+        "subtitle": "Soluții complete pentru toate nevoile dumneavoastră de ascensoare",
+        "installation": {
+            "title": "Instalare Ascensoare",
+            "description": "Instalăm ascensoare moderne și eficiente pentru clădiri rezidențiale, comerciale și industriale.",
+            "hero": {
+                "title": "Servicii Profesionale de Instalare Ascensoare",
+                "subtitle": "Cu 15 ani de experiență, oferim cele mai potrivite soluții de ascensoare pentru clădirile dumneavoastră"
+            },
+            "overview": {
+                "title": "Soluții Complete de Instalare",
+                "description": "Oferim servicii de instalare ascensoare moderne, sigure și eficiente pentru clădiri rezidențiale, comerciale și industriale. Aplicăm cele mai înalte standarde de calitate în fiecare proiect."
+            },
+            "process": {
+                "title": "Procesul de Instalare",
+                "steps": [
+                    {
+                        "title": "Evaluare Proiect",
+                        "description": "Analizăm structura clădirii pentru a determina tipul de ascensor cel mai potrivit."
+                    },
+                    {
+                        "title": "Planificare Tehnică",
+                        "description": "Creăm desene tehnice detaliate și planificare proiect."
+                    },
+                    {
+                        "title": "Aprobări și Permise",
+                        "description": "Obținem aprobările municipale și tehnice necesare."
+                    },
+                    {
+                        "title": "Instalare",
+                        "description": "Efectuăm instalare profesională cu echipele noastre certificate."
+                    },
+                    {
+                        "title": "Testare și Pornire",
+                        "description": "Efectuăm teste de siguranță și controale de calitate."
+                    },
+                    {
+                        "title": "Instruire și Predare",
+                        "description": "Oferim instruire utilizatori și predare documentație."
+                    }
+                ]
+            },
+            "features": {
+                "title": "De Ce Să Ne Alegeți",
+                "items": [
+                    {
+                        "title": "Echipă Certificată",
+                        "description": "Tehnicieni experți cu certificări internaționale"
+                    },
+                    {
+                        "title": "Instalare Rapidă",
+                        "description": "Proiecte finalizate în medie în 2-4 săptămâni"
+                    },
+                    {
+                        "title": "Garanție",
+                        "description": "Garanție 2 ani și suport tehnic 24/7"
+                    },
+                    {
+                        "title": "Prețuri Competitive",
+                        "description": "Prețuri competitive și opțiuni de plată flexibile"
+                    }
+                ]
+            },
+            "faq": {
+                "title": "Întrebări Frecvente",
+                "items": [
+                    {
+                        "question": "Cât durează instalarea?",
+                        "answer": "Variază în funcție de tipul clădirii și modelul de ascensor, dar durează de obicei 2-4 săptămâni în medie."
+                    },
+                    {
+                        "question": "Ce documente sunt necesare?",
+                        "answer": "Sunt necesare autorizație de construire, proiect tehnic și aprobări municipale. Vă asistăm pe tot parcursul procesului."
+                    },
+                    {
+                        "question": "Care este perioada de garanție?",
+                        "answer": "Toate instalările noastre sunt acoperite de garanție 2 ani și oferim suport tehnic 24/7."
+                    },
+                    {
+                        "question": "Cum pot obține o ofertă de preț?",
+                        "answer": "Puteți obține o vizionare gratuită și ofertă de preț completând formularul nostru de contact sau apelându-ne."
+                    }
+                ]
+            }
+        },
+        "maintenance": {
+            "title": "Mentenanță Periodică",
+            "description": "Servicii complete de întreținere preventivă și corectivă pentru funcționarea optimă a ascensorului.",
+            "hero": {
+                "title": "Servicii Profesionale de Mentenanță Ascensoare",
+                "subtitle": "Asigurăm că ascensoarele dumneavoastră funcționează întotdeauna în siguranță și eficient cu suport tehnic 24/7"
+            },
+            "overview": {
+                "title": "Soluții Complete de Mentenanță",
+                "description": "Cu serviciile noastre de întreținere preventivă și corectivă, prelungim durata de viață a ascensoarelor, creștem siguranța și prevenim defecțiunile neașteptate."
+            },
+            "process": {
+                "title": "Procesul de Mentenanță",
+                "steps": [
+                    {
+                        "title": "Inspecție Inițială",
+                        "description": "Evaluăm starea generală și performanța ascensorului."
+                    },
+                    {
+                        "title": "Plan de Mentenanță",
+                        "description": "Creăm un program de mentenanță personalizat în funcție de tipul de ascensor."
+                    },
+                    {
+                        "title": "Controale Periodice",
+                        "description": "Efectuăm controale de siguranță și performanță la intervale regulate."
+                    },
+                    {
+                        "title": "Intervenție de Urgență",
+                        "description": "Echipa noastră de intervenție 24/7 oferă soluții rapide."
+                    },
+                    {
+                        "title": "Raportare",
+                        "description": "Oferim rapoarte detaliate și recomandări după fiecare mentenanță."
+                    }
+                ]
+            },
+            "features": {
+                "title": "Serviciile Noastre de Mentenanță",
+                "items": [
+                    {
+                        "title": "Suport 24/7",
+                        "description": "Răspuns rapid garantat în situații de urgență"
+                    },
+                    {
+                        "title": "Mentenanță Preventivă",
+                        "description": "Controale regulate pentru a preveni defecțiunile"
+                    },
+                    {
+                        "title": "Piese de Schimb",
+                        "description": "Stoc de piese originale și aprovizionare rapidă"
+                    },
+                    {
+                        "title": "Echipă de Experți",
+                        "description": "Serviciu profesional cu tehnicieni certificați"
+                    }
+                ]
+            },
+            "faq": {
+                "title": "Întrebări Frecvente",
+                "items": [
+                    {
+                        "question": "Cât de des ar trebui făcută mentenanța?",
+                        "answer": "Recomandăm în general mentenanță periodică lunară sau trimestrială, în funcție de tipul de ascensor."
+                    },
+                    {
+                        "question": "Cât de repede răspundeți în situații de urgență?",
+                        "answer": "Garantăm răspuns în 2 ore în zonele metropolitane și 4 ore în alte orașe."
+                    },
+                    {
+                        "question": "Pot face un contract de mentenanță?",
+                        "answer": "Da, oferim avantaje de preț speciale și serviciu prioritare cu contracte anuale de mentenanță."
+                    },
+                    {
+                        "question": "Ce piese sunt acoperite de mentenanță?",
+                        "answer": "Toate piesele mecanice și electrice, sistemele de siguranță și panourile de control sunt acoperite de mentenanță."
+                    }
+                ]
+            }
+        },
+        "modernization": {
+            "title": "Modernizare & Revizie",
+            "description": "Modernizăm ascensoarele vechi cu tehnologie de ultimă generație pentru siguranță și eficiență sporită.",
+            "hero": {
+                "title": "Servicii de Modernizare Ascensoare",
+                "subtitle": "Actualizăm ascensoarele vechi cu tehnologie modernă pentru a oferi siguranță, eficiență și confort"
+            },
+            "overview": {
+                "title": "Soluții de Modernizare",
+                "description": "În loc să înlocuim complet ascensoarele vechi, creștem standardele de siguranță, reducem consumul de energie și îmbunătățim experiența utilizatorului prin modernizare."
+            },
+            "process": {
+                "title": "Procesul de Modernizare",
+                "steps": [
+                    {
+                        "title": "Analiză Tehnică",
+                        "description": "Evaluăm starea actuală și potențialul de modernizare al ascensorului."
+                    },
+                    {
+                        "title": "Propunere Soluție",
+                        "description": "Prezentăm un pachet de modernizare și ofertă de preț potrivit nevoilor dumneavoastră."
+                    },
+                    {
+                        "title": "Planificare",
+                        "description": "Creăm un plan de modernizare cu întreruperi minime."
+                    },
+                    {
+                        "title": "Modernizare",
+                        "description": "Sistemul de control, echipamentele de siguranță și componentele eficiente energetic sunt actualizate."
+                    },
+                    {
+                        "title": "Testare și Aprobare",
+                        "description": "Se obțin teste de siguranță și aprobări oficiale."
+                    },
+                    {
+                        "title": "Predare și Instruire",
+                        "description": "Sistemul actualizat este predat și se oferă instruire utilizatori."
+                    }
+                ]
+            },
+            "features": {
+                "title": "Avantaje Modernizare",
+                "items": [
+                    {
+                        "title": "Economie de Energie",
+                        "description": "Reducere de până la 40% a consumului de energie"
+                    },
+                    {
+                        "title": "Siguranță",
+                        "description": "Conformitate cu noile standarde de siguranță"
+                    },
+                    {
+                        "title": "Confort",
+                        "description": "Funcționare mai silențioasă și mai lină"
+                    },
+                    {
+                        "title": "Cost",
+                        "description": "Cu 60-70% mai economic decât un ascensor nou"
+                    }
+                ]
+            },
+            "faq": {
+                "title": "Întrebări Frecvente",
+                "items": [
+                    {
+                        "question": "Cât durează modernizarea?",
+                        "answer": "Variază în funcție de domeniul proiectului, dar durează de obicei 1-2 săptămâni în medie."
+                    },
+                    {
+                        "question": "Poate fi folosit ascensorul în timpul modernizării?",
+                        "answer": "Utilizare parțială este posibilă în majoritatea cazurilor, dar poate fi necesară închidere pe termen scurt în unele faze."
+                    },
+                    {
+                        "question": "Ce ascensoare pot fi modernizate?",
+                        "answer": "Majoritatea ascensoarelor sub 15-20 ani pot fi modernizate. Decizia finală se ia după evaluarea tehnică."
+                    },
+                    {
+                        "question": "Există garanție după modernizare?",
+                        "answer": "Da, toate lucrările noastre de modernizare sunt acoperite de garanție 2 ani."
+                    }
+                ]
+            }
+        }
+    },
+    "whyChooseUs": {
+        "badge": "De Ce Noi?",
+        "title": "De Ce Să Ne Alegeți",
+        "subtitle": "Suntem mai mult decât un furnizor de ascensoare",
+        "reason1": "Echipă de experți cu certificări internaționale",
+        "reason2": "Tehnologie de ultimă generație și standarde înalte de siguranță",
+        "reason3": "Asistență tehnică 24/7 pentru intervenții rapide",
+        "reason4": "proiecte finalizate cu succes în România",
+        "reason5": "Prețuri competitive și transparență totală",
+        "reason6": "Garanție extinsă și service post-vânzare de calitate"
+    },
+    "about": {
+        "hero": {
+            "title": "Despre AsansorTech România",
+            "subtitle": "Povestea celor peste 15 ani de excelență în industria ascensoarelor"
+        },
+        "story": {
+            "title": "Povestea Noastră",
+            "subtitle": "De la un startup local la liderul pieței de ascensoare din România"
+        },
+        "timeline": {
+            "event1": {
+                "title": "Fondarea Companiei",
+                "description": "AsansorTech România a fost înființată în București cu o viziune clară: să oferim soluții de ascensoare de cea mai înaltă calitate."
+            },
+            "event2": {
+                "title": "Primul Proiect Major",
+                "description": "Am finalizat instalarea a peste 50 de ascensoare într-un centru comercial major din București."
+            },
+            "event3": {
+                "title": "Expansiune Națională",
+                "description": "Am deschis birouri în Cluj-Napoca și Timișoara, extinzându-ne prezența la nivel național."
+            },
+            "event4": {
+                "title": "Certificare ISO",
+                "description": "Am obținut certificarea ISO 9001:2015 pentru sistemul nostru de management al calității."
+            },
+            "event5": {
+                "title": "Peste 500 de Proiecte",
+                "description": "Am atins pragul de 500 de proiecte finalizate cu succes în întreaga țară."
+            },
+            "event6": {
+                "title": "Lider în Tehnologie",
+                "description": "Am devenit furnizorul principal de soluții smart pentru ascensoare în România."
+            }
+        },
+        "missionVision": {
+            "title": "Misiune & Viziune"
+        },
+        "mission": {
+            "title": "Misiunea Noastră",
+            "text": "Să oferim soluții complete de ascensoare care îmbină siguranța supremă cu tehnologia avansată, asigurând mobilitate eficientă și confortabilă pentru toate clădirile din România."
+        },
+        "vision": {
+            "title": "Viziunea Noastră",
+            "text": "Să fim recunoscuți ca cel mai de încredere partener în industria ascensoarelor din Europa de Est, stabilind standardul pentru inovație, serviciu și excelență operațională."
+        },
+        "values": {
+            "title": "Valorile Noastre",
+            "subtitle": "Principiile care ne ghidează în tot ceea ce facem",
+            "value1": {
+                "title": "Siguranța Mai Întâi",
+                "description": "Prioritizăm siguranța în fiecare instalare și serviciu de mentenanță."
+            },
+            "value2": {
+                "title": "Excelență în Calitate",
+                "description": "Angajament față de cele mai înalte standarde de calitate în toate activitățile noastre."
+            },
+            "value3": {
+                "title": "Focus pe Client",
+                "description": "Construim parteneriate pe termen lung bazate pe încredere și transparență."
+            },
+            "value4": {
+                "title": "Inovație",
+                "description": "Adoptăm tehnologii de vârf pentru a oferi soluții superioare."
+            },
+            "value5": {
+                "title": "Sustenabilitate",
+                "description": "Practici responsabile față de mediu și soluții eficiente energetic."
+            },
+            "value6": {
+                "title": "Fiabilitate",
+                "description": "Suport 24/7 și timpuri rapide de răspuns pentru toți clienții noștri."
+            }
+        },
+        "certifications": {
+            "title": "Certificări & Acreditări",
+            "subtitle": "Recunoscuți pentru excelență și conformitate",
+            "description": "Această certificare demonstrează angajamentul nostru de a menține cele mai înalte standarde de calitate, siguranță și profesionalism în toate aspectele serviciilor noastre de ascensoare."
+        }
+    },
+    "projects": {
+        "title": "Proiectele Noastre",
+        "subtitle": "Portofoliu de {{count}}+ proiecte realizate cu succes"
+    },
+    "references": {
+        "title": "Partenerii Noștri",
+        "subtitle": "Colaborăm cu cele mai prestigioase companii din România"
+    },
+    "blog": {
+        "title": "Ultimele Noutăți",
+        "subtitle": "Articole și informații utile despre industria ascensoarelor"
+    },
+    "stats": {
+        "title": "Statistici",
+        "projects": "Proiecte Finalizate",
+        "clients": "Clienți Mulțumiți",
+        "technicians": "Tehnicieni Certificați",
+        "cities": "Orașe Acoperite"
+    },
+    "cta": {
+        "title": "Gata să începem?",
+        "subtitle": "Contactați-ne astăzi pentru o consultație gratuită și o ofertă personalizată.",
+        "button": "Solicită Ofertă Gratuită"
+    },
+    "footer": {
+        "company": {
+            "title": "Despre Companie",
+            "description": "Lider în distribuția și instalarea de ascensoare în România, cu peste 15 ani de experiență."
+        },
+        "quickLinks": "Link-uri Rapide",
+        "services": "Servicii",
+        "contactInfo": "Informații Contact",
+        "followUs": "Urmărește-ne",
+        "copyright": "© 2024 AsansorTech România. Toate drepturile rezervate.",
+        "privacy": "Politica de Confidențialitate",
+        "terms": "Termeni și Condiții",
+        "gdpr": "GDPR"
+    },
+    "contact": {
+        "title": "Contactează-ne",
+        "subtitle": "Suntem aici să vă ajutăm. Trimiteți-ne un mesaj și vă vom răspunde în cel mai scurt timp.",
+        "form": {
+            "name": "Nume Complet",
+            "email": "Adresa de Email",
+            "phone": "Telefon",
+            "subject": "Subiect",
+            "message": "Mesaj",
+            "gdpr": "Accept politica de confidențialitate și sunt de acord cu prelucrarea datelor mele personale conform GDPR.",
+            "submit": "Trimite Mesaj",
+            "success": "Mesajul a fost trimis cu succes!",
+            "error": "A apărut o eroare. Vă rugăm să încercați din nou.",
+            "formTitle": "Solicită Ofertă & Contact",
+            "companyName": "Numele Companiei",
+            "dimensionsTitle": "Dimensiuni Ascensor (mm)",
+            "dimensionX": "Lungime",
+            "dimensionY": "Lățime",
+            "dimensionZ": "Înălțime",
+            "fileSelect": "Selecție Fișier",
+            "fileUpload": "Încarcă Fișier",
+            "fileNote": ".dwg, .pdf, .zip, .rar... (Max 6MB)"
+        },
+        "info": {
+            "office": "Birou Central",
+            "hours": "Program",
+            "hoursValue": "Luni - Vineri: 8:00 - 18:00"
+        }
+    },
+    "products": {
+        "title": "Produsele Noastre",
+        "subtitle": "Oferim soluții pentru toate nevoile dumneavoastră cu gama noastră largă de produse",
+        "hero": {
+            "title": "Catalog Produse Ascensoare",
+            "subtitle": "Soluții moderne și de încredere de ascensoare pentru clădiri rezidențiale, comerciale și industriale"
+        },
+        "filters": {
+            "all": "Toate",
+            "category": "Categorie",
+            "capacity": "Capacitate",
+            "speed": "Viteză",
+            "search": "Caută produse..."
+        },
+        "categories": {
+            "residential": "Rezidențial",
+            "commercial": "Comercial",
+            "industrial": "Industrial",
+            "hospital": "Spital",
+            "freight": "Marfă"
+        },
+        "details": {
+            "overview": "Prezentare Generală",
+            "specifications": "Specificații Tehnice",
+            "features": "Caracteristici",
+            "gallery": "Galerie",
+            "downloadBrochure": "Descarcă Broșură",
+            "requestQuote": "Solicită Ofertă",
+            "capacity": "Capacitate",
+            "speed": "Viteză",
+            "floors": "Etaje",
+            "power": "Putere",
+            "dimensions": "Dimensiuni",
+            "warranty": "Garanție",
+            "relatedProducts": "Produse Asemănătoare"
+        },
+        "empty": {
+            "notFound": "Nu s-au găsit produse",
+            "tryAgain": "Încercați să schimbați filtrele"
+        }
+    },
+    "cookieConsent": {
+        "text": "Acest site web folosește cookie-uri pentru a vă îmbunătăți experiența. Prin utilizarea site-ului nostru, sunteți de acord cu politica noastră de cookie-uri.",
+        "learnMore": "Află mai multe",
+        "accept": "Acceptă",
+        "decline": "Refuză"
+    }
+}

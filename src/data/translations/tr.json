@@ -1,0 +1,509 @@
+{
+    "common": {
+        "companyName": "AsansorTech Romanya",
+        "getQuote": "Teklif Al",
+        "learnMore": "Daha Fazla Bilgi",
+        "readMore": "Devamını Oku",
+        "viewAll": "Tümünü Gör",
+        "viewDetails": "Detayları Gör",
+        "contactUs": "Bize Ulaşın",
+        "sendMessage": "Mesaj Gönder",
+        "loading": "Yükleniyor...",
+        "email": "E-posta",
+        "phone": "Telefon",
+        "address": "Adres"
+    },
+    "nav": {
+        "home": "Ana Sayfa",
+        "corporate": "Kurumsal",
+        "about": "Hakkımızda",
+        "subsidiaries": "Bağlı Şirketler",
+        "services": "Hizmetler",
+        "installation": "Kurulum",
+        "maintenance": "Bakım",
+        "modernization": "Modernizasyon",
+        "products": "Ürünler",
+        "projects": "Projeler",
+        "references": "Referanslar",
+        "blog": "Blog",
+        "contact": "İletişim"
+    },
+    "hero": {
+        "title": "Romanya'nın Güvenilir Asansör Çözümleri Ortağı",
+        "subtitle": "Romanya'da 15 yılı aşkın deneyimimizle, en yüksek güvenlik ve kalite standartlarında asansör kurulumu, bakımı ve modernizasyon hizmetleri sunuyoruz.",
+        "cta1": "Teklif Alın",
+        "cta2": "Hizmetlerimiz"
+    },
+    "features": {
+        "projects": {
+            "number": "500+",
+            "label": "Tamamlanan Proje"
+        },
+        "support": {
+            "number": "24/7",
+            "label": "Teknik Destek"
+        },
+        "experience": {
+            "number": "15+",
+            "label": "Yıllık Deneyim"
+        },
+        "safety": {
+            "number": "100%",
+            "label": "Güvenlik Uyumu"
+        }
+    },
+    "services": {
+        "title": "Hizmetlerimiz",
+        "subtitle": "Tüm asansör ihtiyaçlarınız için eksiksiz çözümler",
+        "installation": {
+            "title": "Asansör Kurulumu",
+            "description": "Konut, ticari ve endüstriyel binalar için modern ve verimli asansörler kuruyoruz.",
+            "hero": {
+                "title": "Profesyonel Asansör Kurulum Hizmetleri",
+                "subtitle": "15 yıllık deneyimimizle, binalarınıza en uygun asansör çözümlerini sunuyoruz"
+            },
+            "overview": {
+                "title": "Kapsamlı Kurulum Çözümleri",
+                "description": "Konut, ticari ve endüstriyel binalar için modern, güvenli ve verimli asansör kurulum hizmetleri sunuyoruz. Her projede en yüksek kalite standartlarını uyguluyoruz."
+            },
+            "process": {
+                "title": "Kurulum Süreci",
+                "steps": [
+                    {
+                        "title": "Proje Değerlendirmesi",
+                        "description": "Bina yapısını analiz ederek en uygun asansör tipini belirliyoruz."
+                    },
+                    {
+                        "title": "Teknik Planlama",
+                        "description": "Detaylı teknik çizimler ve proje planlaması yapıyoruz."
+                    },
+                    {
+                        "title": "Onay ve İzinler",
+                        "description": "Gerekli belediye ve teknik onayları alıyoruz."
+                    },
+                    {
+                        "title": "Kurulum",
+                        "description": "Sertifikalı ekiplerimizle profesyonel kurulum gerçekleştiriyoruz."
+                    },
+                    {
+                        "title": "Test ve Devreye Alma",
+                        "description": "Güvenlik testleri ve kalite kontrolleri yapıyoruz."
+                    },
+                    {
+                        "title": "Eğitim ve Teslim",
+                        "description": "Kullanıcı eğitimi ve dokümantasyon teslimi yapıyoruz."
+                    }
+                ]
+            },
+            "features": {
+                "title": "Neden Bizi Seçmelisiniz",
+                "items": [
+                    {
+                        "title": "Sertifikalı Ekip",
+                        "description": "Uluslararası sertifikalara sahip uzman teknisyenler"
+                    },
+                    {
+                        "title": "Hızlı Kurulum",
+                        "description": "Ortalama 2-4 hafta içinde tamamlanan projeler"
+                    },
+                    {
+                        "title": "Garanti",
+                        "description": "2 yıl garanti ve 7/24 teknik destek"
+                    },
+                    {
+                        "title": "Uygun Fiyat",
+                        "description": "Rekabetçi fiyatlar ve esnek ödeme seçenekleri"
+                    }
+                ]
+            },
+            "faq": {
+                "title": "Sık Sorulan Sorular",
+                "items": [
+                    {
+                        "question": "Kurulum süresi ne kadar?",
+                        "answer": "Bina tipine ve asansör modeline göre değişmekle birlikte, ortalama 2-4 hafta sürmektedir."
+                    },
+                    {
+                        "question": "Hangi belgeler gerekiyor?",
+                        "answer": "Bina ruhsatı, teknik proje ve belediye onayları gerekmektedir. Tüm süreçte size yardımcı oluyoruz."
+                    },
+                    {
+                        "question": "Garanti süresi ne kadar?",
+                        "answer": "Tüm kurulumlarımız 2 yıl garanti kapsamındadır ve 7/24 teknik destek sunuyoruz."
+                    },
+                    {
+                        "question": "Fiyat teklifi nasıl alabilirim?",
+                        "answer": "İletişim formumuzu doldurarak veya telefon ile bize ulaşarak ücretsiz keşif ve fiyat teklifi alabilirsiniz."
+                    }
+                ]
+            }
+        },
+        "maintenance": {
+            "title": "Periyodik Bakım",
+            "description": "Optimal asansör çalışması için kapsamlı önleyici ve düzeltici bakım hizmetleri.",
+            "hero": {
+                "title": "Profesyonel Asansör Bakım Hizmetleri",
+                "subtitle": "7/24 teknik destek ile asansörlerinizin her zaman güvenli ve verimli çalışmasını sağlıyoruz"
+            },
+            "overview": {
+                "title": "Kapsamlı Bakım Çözümleri",
+                "description": "Önleyici ve düzeltici bakım hizmetlerimiz ile asansörlerinizin ömrünü uzatıyor, güvenliği artırıyor ve beklenmedik arızaları önlüyoruz."
+            },
+            "process": {
+                "title": "Bakım Süreci",
+                "steps": [
+                    {
+                        "title": "İlk İnceleme",
+                        "description": "Asansörün genel durumunu ve performansını değerlendiriyoruz."
+                    },
+                    {
+                        "title": "Bakım Planı",
+                        "description": "Asansör tipine göre özelleştirilmiş bakım programı oluşturuyoruz."
+                    },
+                    {
+                        "title": "Periyodik Kontroller",
+                        "description": "Düzenli aralıklarla güvenlik ve performans kontrolleri yapıyoruz."
+                    },
+                    {
+                        "title": "Arıza Müdahalesi",
+                        "description": "7/24 acil müdahale ekibimiz hızlı çözüm sunuyor."
+                    },
+                    {
+                        "title": "Raporlama",
+                        "description": "Her bakım sonrası detaylı rapor ve öneriler sunuyoruz."
+                    }
+                ]
+            },
+            "features": {
+                "title": "Bakım Hizmetlerimiz",
+                "items": [
+                    {
+                        "title": "7/24 Destek",
+                        "description": "Acil durumlarda hızlı müdahale garantisi"
+                    },
+                    {
+                        "title": "Önleyici Bakım",
+                        "description": "Arızaları önlemek için düzenli kontroller"
+                    },
+                    {
+                        "title": "Yedek Parça",
+                        "description": "Orijinal yedek parça stoku ve hızlı tedarik"
+                    },
+                    {
+                        "title": "Uzman Ekip",
+                        "description": "Sertifikalı teknisyenlerle profesyonel hizmet"
+                    }
+                ]
+            },
+            "faq": {
+                "title": "Sık Sorulan Sorular",
+                "items": [
+                    {
+                        "question": "Bakım sıklığı ne olmalı?",
+                        "answer": "Asansör tipine göre değişmekle birlikte, genellikle aylık veya 3 aylık periyodik bakım öneriyoruz."
+                    },
+                    {
+                        "question": "Acil durumlarda ne kadar sürede müdahale ediyorsunuz?",
+                        "answer": "Büyükşehirlerde 2 saat içinde, diğer şehirlerde 4 saat içinde müdahale garantisi veriyoruz."
+                    },
+                    {
+                        "question": "Bakım anlaşması yapabilir miyim?",
+                        "answer": "Evet, yıllık bakım anlaşmaları ile özel fiyat avantajları ve öncelikli hizmet sunuyoruz."
+                    },
+                    {
+                        "question": "Hangi parçalar bakım kapsamında?",
+                        "answer": "Tüm mekanik ve elektrik parçalar, güvenlik sistemleri ve kontrol panelleri bakım kapsamındadır."
+                    }
+                ]
+            }
+        },
+        "modernization": {
+            "title": "Modernizasyon ve Revizyon",
+            "description": "Eski asansörleri en son teknoloji ile yükselterek güvenliği ve verimliliği artırıyoruz.",
+            "hero": {
+                "title": "Asansör Modernizasyon Hizmetleri",
+                "subtitle": "Eski asansörlerinizi modern teknoloji ile güncelleyerek güvenlik, verimlilik ve konfor sağlıyoruz"
+            },
+            "overview": {
+                "title": "Modernizasyon Çözümleri",
+                "description": "Eski asansörlerinizi tamamen yenilemek yerine, modernizasyon ile güvenlik standartlarını yükseltiyor, enerji tüketimini azaltıyor ve kullanıcı deneyimini iyileştiriyoruz."
+            },
+            "process": {
+                "title": "Modernizasyon Süreci",
+                "steps": [
+                    {
+                        "title": "Teknik Analiz",
+                        "description": "Mevcut asansörün durumunu ve modernizasyon potansiyelini değerlendiriyoruz."
+                    },
+                    {
+                        "title": "Çözüm Önerisi",
+                        "description": "İhtiyaçlara uygun modernizasyon paketi ve fiyat teklifi sunuyoruz."
+                    },
+                    {
+                        "title": "Planlama",
+                        "description": "Minimal kesinti ile modernizasyon planı oluşturuyoruz."
+                    },
+                    {
+                        "title": "Modernizasyon",
+                        "description": "Kontrol sistemi, güvenlik ekipmanları ve enerji verimli bileşenler güncelleniyor."
+                    },
+                    {
+                        "title": "Test ve Onay",
+                        "description": "Güvenlik testleri ve resmi onaylar alınıyor."
+                    },
+                    {
+                        "title": "Teslim ve Eğitim",
+                        "description": "Güncellenmiş sistem teslim ediliyor ve kullanıcı eğitimi veriliyor."
+                    }
+                ]
+            },
+            "features": {
+                "title": "Modernizasyon Avantajları",
+                "items": [
+                    {
+                        "title": "Enerji Tasarrufu",
+                        "description": "%40'a kadar enerji tüketiminde azalma"
+                    },
+                    {
+                        "title": "Güvenlik",
+                        "description": "Yeni güvenlik standartlarına uyum"
+                    },
+                    {
+                        "title": "Konfor",
+                        "description": "Daha sessiz ve pürüzsüz çalışma"
+                    },
+                    {
+                        "title": "Maliyet",
+                        "description": "Yeni asansörden %60-70 daha ekonomik"
+                    }
+                ]
+            },
+            "faq": {
+                "title": "Sık Sorulan Sorular",
+                "items": [
+                    {
+                        "question": "Modernizasyon ne kadar sürer?",
+                        "answer": "Proje kapsamına göre değişmekle birlikte, ortalama 1-2 hafta sürmektedir."
+                    },
+                    {
+                        "question": "Modernizasyon sırasında asansör kullanılabilir mi?",
+                        "answer": "Çoğu durumda kısmi kullanım mümkündür, ancak bazı aşamalarda kısa süreli kapanma gerekebilir."
+                    },
+                    {
+                        "question": "Hangi asansörler modernize edilebilir?",
+                        "answer": "15-20 yaş altındaki çoğu asansör modernize edilebilir. Teknik değerlendirme sonrası kesin karar verilir."
+                    },
+                    {
+                        "question": "Modernizasyon sonrası garanti var mı?",
+                        "answer": "Evet, tüm modernizasyon işlemlerimiz 2 yıl garanti kapsamındadır."
+                    }
+                ]
+            }
+        }
+    },
+    "whyChooseUs": {
+        "badge": "Neden Biz?",
+        "title": "Neden Bizi Seçmelisiniz",
+        "subtitle": "Sadece bir asansör tedarikçisinden daha fazlasıyız",
+        "reason1": "Uluslararası sertifikalara sahip uzman ekip",
+        "reason2": "En son teknoloji ve yüksek güvenlik standartları",
+        "reason3": "Hızlı müdahale için 7/24 teknik yardım",
+        "reason4": "Romanya'da başarıyla tamamlanan proje",
+        "reason5": "Rekabetçi fiyatlar ve tam şeffaflık",
+        "reason6": "Uzatılmış garanti ve kaliteli satış sonrası hizmet"
+    },
+    "about": {
+        "hero": {
+            "title": "AsansorTech Romanya Hakkında",
+            "subtitle": "Asansör endüstrisinde 15 yılı aşkın mükemmelliğin hikayesi"
+        },
+        "story": {
+            "title": "Hikayemiz",
+            "subtitle": "Yerel bir startup'tan Romanya asansör pazarının liderine"
+        },
+        "timeline": {
+            "event1": {
+                "title": "Şirketin Kuruluşu",
+                "description": "AsansorTech Romanya, en yüksek kalitede asansör çözümleri sunma vizyonuyla Bükreş'te kuruldu."
+            },
+            "event2": {
+                "title": "İlk Büyük Proje",
+                "description": "Bükreş'teki büyük bir alışveriş merkezinde 50'den fazla asansör kurulumunu tamamladık."
+            },
+            "event3": {
+                "title": "Ulusal Genişleme",
+                "description": "Cluj-Napoca ve Timișoara'da ofisler açarak ülke genelinde varlığımızı genişlettik."
+            },
+            "event4": {
+                "title": "ISO Sertifikası",
+                "description": "Kalite yönetim sistemimiz için ISO 9001:2015 sertifikasını aldık."
+            },
+            "event5": {
+                "title": "500+ Proje",
+                "description": "Ülke genelinde başarıyla tamamlanmış 500 proje kilometre taşına ulaştık."
+            },
+            "event6": {
+                "title": "Teknoloji Lideri",
+                "description": "Romanya'da akıllı asansör çözümlerinin önde gelen tedarikçisi olduk."
+            }
+        },
+        "missionVision": {
+            "title": "Misyon & Vizyon"
+        },
+        "mission": {
+            "title": "Misyonumuz",
+            "text": "Üstün güvenliği ileri teknolojiyle birleştiren kapsamlı asansör çözümleri sunarak, Romanya'daki tüm binalar için verimli ve konforlu mobilite sağlamak."
+        },
+        "vision": {
+            "title": "Vizyonumuz",
+            "text": "Doğu Avrupa'daki asansör endüstrisinin en güvenilir ortağı olarak tanınmak ve inovasyon, hizmet ve operasyonel mükemmellik için standart belirlemek."
+        },
+        "values": {
+            "title": "Değerlerimiz",
+            "subtitle": "Yaptığımız her işte bize rehberlik eden ilkeler",
+            "value1": {
+                "title": "Önce Güvenlik",
+                "description": "Her kurulum ve bakım hizmetinde güvenliği ön planda tutuyoruz."
+            },
+            "value2": {
+                "title": "Kalite Mükemmelliği",
+                "description": "Tüm çalışmalarımızda en yüksek kalite standartlarına bağlılık."
+            },
+            "value3": {
+                "title": "Müşteri Odaklılık",
+                "description": "Güven ve şeffaflığa dayalı uzun vadeli ortaklıklar kuruyoruz."
+            },
+            "value4": {
+                "title": "İnovasyon",
+                "description": "Üstün çözümler sunmak için son teknolojiyi benimsiyoruz."
+            },
+            "value5": {
+                "title": "Sürdürülebilirlik",
+                "description": "Çevreye duyarlı uygulamalar ve enerji verimli çözümler."
+            },
+            "value6": {
+                "title": "Güvenilirlik",
+                "description": "Tüm müşterilerimiz için 7/24 destek ve hızlı yanıt süreleri."
+            }
+        },
+        "certifications": {
+            "title": "Sertifikalar & Akreditasyonlar",
+            "subtitle": "Mükemmellik ve uyum için tanınmış",
+            "description": "Bu sertifika, asansör hizmetlerimizin tüm yönlerinde en yüksek kalite, güvenlik ve profesyonellik standartlarını koruma taahhüdümüzü göstermektedir."
+        }
+    },
+    "projects": {
+        "title": "Projelerimiz",
+        "subtitle": "{{count}}+ Başarıyla tamamlanmış proje portföyü"
+    },
+    "references": {
+        "title": "Ortaklarımız",
+        "subtitle": "Romanya'nın en prestijli şirketleriyle işbirliği yapıyoruz"
+    },
+    "blog": {
+        "title": "Son Haberler",
+        "subtitle": "Asansör endüstrisi hakkında faydalı makaleler ve bilgiler"
+    },
+    "stats": {
+        "title": "İstatistikler",
+        "projects": "Tamamlanan Projeler",
+        "clients": "Memnun Müşteriler",
+        "technicians": "Sertifikalı Teknisyenler",
+        "cities": "Kapsanan Şehirler"
+    },
+    "cta": {
+        "title": "Başlamaya hazır mısınız?",
+        "subtitle": "Ücretsiz danışmanlık ve kişiselleştirilmiş teklif için bugün bize ulaşın.",
+        "button": "Ücretsiz Teklif İsteyin"
+    },
+    "footer": {
+        "company": {
+            "title": "Şirket Hakkında",
+            "description": "15 yılı aşkın deneyime sahip Romanya'da asansör dağıtımı ve kurulumunda lideriz."
+        },
+        "quickLinks": "Hızlı Bağlantılar",
+        "services": "Hizmetler",
+        "contactInfo": "İletişim Bilgileri",
+        "followUs": "Bizi Takip Edin",
+        "copyright": "© 2024 AsansorTech Romanya. Tüm hakları saklıdır.",
+        "privacy": "Gizlilik Politikası",
+        "terms": "Şartlar ve Koşullar",
+        "gdpr": "GDPR"
+    },
+    "contact": {
+        "title": "Bize Ulaşın",
+        "subtitle": "Size yardımcı olmak için buradayız. Bize mesaj gönderin, en kısa sürede yanıt vereceğiz.",
+        "form": {
+            "name": "Ad Soyad",
+            "email": "E-posta Adresi",
+            "phone": "Telefon",
+            "subject": "Konu",
+            "message": "Mesaj",
+            "gdpr": "Gizlilik politikasını kabul ediyorum ve kişisel verilerimin GDPR'ye uygun olarak işlenmesini onaylıyorum.",
+            "submit": "Mesaj Gönder",
+            "success": "Mesaj başarıyla gönderildi!",
+            "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+            "formTitle": "Teklif İste & İletişim",
+            "companyName": "Firma Adı",
+            "dimensionsTitle": "Asansör Boyut Ölçüleri (mm)",
+            "dimensionX": "Uzunluk",
+            "dimensionY": "Genişlik",
+            "dimensionZ": "Yükseklik (Hacim)",
+            "fileSelect": "Dosya Seçimi",
+            "fileUpload": "Dosya Yükle",
+            "fileNote": ".dwg, .pdf, .zip, .rar... (Max 6MB)"
+        },
+        "info": {
+            "office": "Merkez Ofis",
+            "hours": "Çalışma Saatleri",
+            "hoursValue": "Pazartesi - Cuma: 08:00 - 18:00"
+        }
+    },
+    "products": {
+        "title": "Ürünlerimiz",
+        "subtitle": "Geniş ürün yelpazemizle tüm ihtiyaçlarınıza çözüm sunuyoruz",
+        "hero": {
+            "title": "Asansör Ürün Kataloğu",
+            "subtitle": "Konut, ticari ve endüstriyel binalar için modern ve güvenilir asansör çözümleri"
+        },
+        "filters": {
+            "all": "Tümü",
+            "category": "Kategori",
+            "capacity": "Kapasite",
+            "speed": "Hız",
+            "search": "Ürün ara..."
+        },
+        "categories": {
+            "residential": "Konut",
+            "commercial": "Ticari",
+            "industrial": "Endüstriyel",
+            "hospital": "Hastane",
+            "freight": "Yük"
+        },
+        "details": {
+            "overview": "Genel Bakış",
+            "specifications": "Teknik Özellikler",
+            "features": "Özellikler",
+            "gallery": "Galeri",
+            "downloadBrochure": "Broşür İndir",
+            "requestQuote": "Teklif İste",
+            "capacity": "Kapasite",
+            "speed": "Hız",
+            "floors": "Kat Sayısı",
+            "power": "Güç",
+            "dimensions": "Boyutlar",
+            "warranty": "Garanti",
+            "relatedProducts": "İlgili Ürünler"
+        },
+        "empty": {
+            "notFound": "Ürün bulunamadı",
+            "tryAgain": "Filtreleri değiştirerek tekrar deneyin"
+        }
+    },
+    "cookieConsent": {
+        "text": "Bu web sitesi deneyiminizi geliştirmek için çerezleri kullanır. Sitemizi kullanarak çerez politikamızı kabul etmiş olursunuz.",
+        "learnMore": "Daha fazla bilgi al",
+        "accept": "Kabul Et",
+        "decline": "Reddet"
+    }
+}

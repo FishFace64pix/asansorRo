@@ -1,0 +1,28 @@
+[
+  {
+    "title": {
+      "tr": "123123123123",
+      "en": "123321321321",
+      "ro": "123123213321"
+    },
+    "slug": "123321321231231",
+    "category": "residential",
+    "location": "123213213213",
+    "year": 2026,
+    "client": "213231312321123",
+    "elevatorCount": 1,
+    "floors": 1,
+    "featured": false,
+    "status": "completed",
+    "image": "https://icerikmatik.com/wp-content/uploads/2022/08/question-mark-3255118_1920.jpg",
+    "gallery": [
+      "https://icerikmatik.com/wp-content/uploads/2022/08/question-mark-3255118_1920.jpg"
+    ],
+    "description": {
+      "tr": "132312321321",
+      "en": "123321321321",
+      "ro": "213123312231"
+    },
+    "id": "1769399035794"
+  }
+]
