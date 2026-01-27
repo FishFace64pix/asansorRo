@@ -33,9 +33,13 @@ export const Footer: React.FC<FooterProps> = ({ locale, translations }) => {
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
                     {/* Company Info */}
                     <div>
-                        <h3 className="text-2xl font-bold mb-4 text-white">
-                            {translations.common.companyName}
-                        </h3>
+                        <div className="mb-6 relative h-16 w-48">
+                            <img
+                                src="/images/logo.png"
+                                alt={translations.common.companyName}
+                                className="h-full w-auto object-contain bg-white/10 rounded-lg p-2"
+                            />
+                        </div>
                         <p className="text-gray-300 mb-6">
                             {translations.footer.company.description}
                         </p>

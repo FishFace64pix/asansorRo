@@ -95,14 +95,13 @@ export const Header: React.FC<HeaderProps> = ({ locale, translations }) => {
             <div className={`transition-all ${isScrolled ? 'py-3' : 'py-4'}`}>
                 <div className="container">
                     <div className="flex justify-between items-center">
-                        {/* Logo */}
                         <Link href={`/${locale}`} className="flex items-center gap-2">
-                            <div className={`font-bold transition-all ${isScrolled ? 'text-2xl' : 'text-3xl'}`}>
-                                {isScrolled ? (
-                                    <span className="gradient-text">{translations.common.companyName}</span>
-                                ) : (
-                                    <span className="text-white">{translations.common.companyName}</span>
-                                )}
+                            <div className={`relative transition-all ${isScrolled ? 'h-12 w-auto' : 'h-16 w-auto'}`}>
+                                <img
+                                    src="/images/logo.png"
+                                    alt={translations.common.companyName}
+                                    className="h-full w-auto object-contain"
+                                />
                             </div>
                         </Link>
 
