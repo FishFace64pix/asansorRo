@@ -17,9 +17,9 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: 'AsansorTech România - Distribuitor Ascensoare',
-  description: 'Lider în distribuția și instalarea de ascensoare în România, cu peste 15 ani de experiență. Instalare, mentenanță și modernizare ascensoare.',
-  keywords: 'ascensoare, instalare ascensoare, mentenanță ascensoare, modernizare ascensoare, România',
+  title: 'AsansorTech România - Instalare, Mentenanță și Modernizare Ascensoare',
+  description: 'Lider în distribuția și instalarea de ascensoare în România. Oferim servicii profesionale de mentenanță lifturi, modernizare și instalare ascensoare în București, Cluj, Timișoara și în toată țara. Suport 24/7.',
+  keywords: 'ascensoare, lifturi, instalare ascensoare romania, mentenanta lifturi bucuresti, modernizare ascensoare, service lifturi, pret ascensoare, lift persoane, lift marfa',
 };
 
 export default function RootLayout({
