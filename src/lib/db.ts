@@ -1,5 +1,5 @@
 import connectDB from './mongodb';
-import { BlogPost, Project, Product, Reference } from '@/models';
+import { BlogPost, Project, Product, Reference, Testimonial } from '@/models';
 
 // Map filenames to models
 const MODELS: Record<string, any> = {
@@ -7,6 +7,7 @@ const MODELS: Record<string, any> = {
     'projects.json': Project,
     'products.json': Product,
     'partners.json': Reference,
+    'testimonials.json': Testimonial,
 };
 
 export async function readJSON<T>(filename: string): Promise<T[]> {

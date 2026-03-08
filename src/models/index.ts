@@ -79,3 +79,19 @@ export const BlogPost = mongoose.models.BlogPost || mongoose.model('BlogPost', B
 export const Project = mongoose.models.Project || mongoose.model('Project', ProjectSchema);
 export const Product = mongoose.models.Product || mongoose.model('Product', ProductSchema);
 export const Reference = mongoose.models.Reference || mongoose.model('Reference', ReferenceSchema);
+
+// Testimonial Schema
+const TestimonialSchema = new Schema({
+    id: { type: String, required: true, unique: true },
+    name: { type: String, required: true },
+    role: { type: String, required: true },
+    company: { type: String },
+    content: {
+        tr: { type: String, required: true },
+        en: { type: String, required: true },
+        ro: { type: String, required: true },
+    },
+    image: { type: String },
+}, { timestamps: true });
+
+export const Testimonial = mongoose.models.Testimonial || mongoose.model('Testimonial', TestimonialSchema);

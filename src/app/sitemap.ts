@@ -3,7 +3,7 @@ import { products } from '@/data/products';
 import { projects } from '@/data/projects';
 import { blogPosts } from '@/data/blog';
 
-const baseUrl = 'https://asansortech.ro';
+const baseUrl = 'https://asansor.ro';
 const locales = ['ro', 'en', 'tr'];
 
 export default function sitemap(): MetadataRoute.Sitemap {
