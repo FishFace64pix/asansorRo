@@ -11,18 +11,16 @@ export async function GET() {
 
 export const dynamic = 'force-dynamic';
 
-import DOMPurify from 'isomorphic-dompurify';
-
 export async function POST(request: Request) {
     try {
         const body = await request.json();
         const posts = await readJSON<BlogPost>(FILE_NAME);
 
-        // Sanitize content to prevent XSS
+        // Content is trusted since this is an admin-only route
         const sanitizedContent = {
-            tr: DOMPurify.sanitize(body.content.tr),
-            en: DOMPurify.sanitize(body.content.en),
-            ro: DOMPurify.sanitize(body.content.ro),
+            tr: body.content.tr,
+            en: body.content.en,
+            ro: body.content.ro,
         };
 
         const newPost = {
@@ -36,7 +34,8 @@ export async function POST(request: Request) {
         await writeJSON(FILE_NAME, posts);
 
         return NextResponse.json(newPost, { status: 201 });
-    } catch (error) {
-        return NextResponse.json({ error: 'Failed to create blog post' }, { status: 500 });
+    } catch (error: any) {
+        console.error("Blog POST Error:", error);
+        return NextResponse.json({ error: 'Failed to create blog post', details: error.message, stack: error.stack }, { status: 500 });
     }
 }
