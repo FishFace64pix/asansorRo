@@ -9,6 +9,8 @@ export async function GET() {
     return NextResponse.json(posts);
 }
 
+export const dynamic = 'force-dynamic';
+
 import DOMPurify from 'isomorphic-dompurify';
 
 export async function POST(request: Request) {

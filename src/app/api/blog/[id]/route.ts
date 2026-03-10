@@ -4,6 +4,8 @@ import { BlogPost } from '@/data/blog';
 
 const FILE_NAME = 'blog.json';
 
+export const dynamic = 'force-dynamic';
+
 export async function PUT(
     request: Request,
     { params }: { params: Promise<{ id: string }> }
