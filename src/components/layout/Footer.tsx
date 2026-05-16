@@ -155,6 +155,17 @@ export const Footer: React.FC<FooterProps> = ({ locale, translations }) => {
                         <p>
                             {translations.footer.copyright.replace('2024', currentYear.toString())}
                         </p>
+                        <p className="text-gray-500 text-xs">
+                            Built by{' '}
+                            <a
+                                href="https://www.kambyte.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="hover:text-accent transition-colors"
+                            >
+                                Kambyte
+                            </a>
+                        </p>
                         <div className="flex gap-6">
                             <Link href={`/${locale}/privacy`} className="hover:text-accent transition-colors">
                                 {translations.footer.privacy}
